@@ -70,6 +70,7 @@ header
 {
 	display: flex;
 	justify-content: center;
+	padding-top: 5%;
 }
 
 #header_title
@@ -80,11 +81,12 @@ header
 	font-weight: bold;
 	text-align: center;
 	text-shadow: 1px 1px 1px black;
-	height: auto,
+	height: auto;
 }
 
 #header_under_title
 {
+	padding-top: 5%;
 	text-align: center;
 	font-size: 1.5em;
 	color: white;
