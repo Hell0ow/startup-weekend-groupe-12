@@ -1,0 +1,147 @@
+#main-header{
+
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-start;
+	position: fixed;
+	z-index: 100;
+	top: 0px;
+	width: 100%;
+	height: 80px;
+	background-color: white;
+	box-shadow: 0 4px 10px -2px rgb(30,30,30);
+}
+
+#header-part-I{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	margin-left: 10px;
+}
+
+h2{
+	font-size: 30px;
+}
+
+#logo{
+
+	width: 70px;
+	height: 70px;
+	background-image: url("../assets/img/logo-bw.jpg");
+	background-size: 70px 70px;
+	margin: 0 80px 0 20px;
+}
+
+#header-part-II{
+
+	width: 40%;
+}
+
+#header-part-III{
+	
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-end; 
+	margin: 20px 60px 20px 20px;
+}
+
+#profil{
+	margin-left: 10px;
+}
+
+#img-profil{
+
+	width: 50px;
+	height: 50px;
+	background-image: url("../assets/img/thomas-heriche.jpg");
+	background-size: 50px 50px;
+	border-radius: 100%;
+}
+#profil > a:link
+{
+	text-decoration:none;
+	color: rgb(10,61,98);
+}
+#profil > a{
+	color: rgb(10,61,98);
+}
+#profil > a:hover{
+
+	text-decoration: none;
+	color: rgb(10,61,98);
+}
+
+
+
+
+
+
+
+
+
+
+
+#header-part-IV{
+	margin-right: 40px;
+	display: flex;
+	align-items: center;
+	width: 120px;
+	height: 100%;
+}
+
+
+.lang-container{
+
+
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 5px;
+}
+    .dropdownCell{
+        text-align: left;
+        padding-left: 5px;
+        padding-right: 5px;
+        border : 1px solid #bbb;
+        width: 120px;
+        height: 23px;
+        cursor: pointer;
+        font-family: "Helvetica";
+        font-size: 12px;
+        background: white url('../assets/img/arrow.png') 100px no-repeat;
+        background-size: 15px;
+    }
+    .dropdownCell img{
+        margin : 0px 3px 0px 3px;
+        vertical-align: middle;
+        width: 20px;
+    }
+    .dropdownPanel{
+    	top: 56px;
+        text-align: -moz-right;
+        border : 1px solid #bbb;
+        width: 119px;
+        position: absolute;
+        z-index: 1000;
+    }
+    .dropdownOpt{
+        text-align: left;
+        padding-left: 5px;
+        background-color: rgba(255,255,255,0.7);
+        cursor: pointer;
+        font-family: arial;
+        font-size: 12px;
+    }
+    .dropdownOpt img{
+        margin : 0px 3px 0px 3px;
+        vertical-align: middle;
+        width: 20px;
+    }
+    .dropdownOptSelected{
+        background-color: gray;
+    }
