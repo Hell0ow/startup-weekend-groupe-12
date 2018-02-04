@@ -1,7 +1,7 @@
 body
 {
 	height: 100%;
-	width: 100%;
+	width: 95%;
 	margin: 0px;
 	font-family: Montserrat, serif;
 }
@@ -47,11 +47,15 @@ header
 
 #header_navbar_section
 {
-	font-size: 2em;
-	width: 35%;
+	font-size: 1.5em;
+	width: 50%;
 	display: flex;
 	justify-content: space-around;
 	text-shadow: 1px 1px 1px black;
+}
+
+#header_navbar_section_connexion_div
+{
 }
 
 #header_navbar_section a, #header_navbar_section span
@@ -124,4 +128,10 @@ header
 {
 	background-color: white;
 	color: black;
+}
+
+
+footer
+{
+
 }
