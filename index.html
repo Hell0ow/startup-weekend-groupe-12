@@ -7,6 +7,7 @@
 	<title>SeeDgital</title>
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700" rel="stylesheet"> 
 	<link rel="icon" type="image/png" href="assets/img/logo_1024.png" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 <body>
 	<div id="main-header">
@@ -22,13 +23,13 @@
 		</section>
 		<section id ="header-part-IV">
 			<div class = "lang-container">
-                    <ul>
-                        <li value="1"><img src="assets/img/fr.png"/>Français</li>
-                        <li value="2"><img src="assets/img/an.png"/>English</li>
-                        <li value="3"><img src="assets/img/es.png"/>Español</li>
-                        <li value="4"><img src="assets/img/de.png"/>Deutsch</li>
-                    </ul>
-                </div>
+				<ul>
+					<li value="1"><img src="assets/img/fr.png"/>Français</li>
+					<li value="2"><img src="assets/img/an.png"/>English</li>
+					<li value="3"><img src="assets/img/es.png"/>Español</li>
+					<li value="4"><img src="assets/img/de.png"/>Deutsch</li>
+				</ul>
+			</div>
 		</section>
 	</div>
 	<header>
@@ -61,49 +62,71 @@
 
 	<p id="title_content_programmation">UN TITRE</p>
 	
-	 <div class="programmation_imgs">
-          <div  data-aos="zoom-in" data-aos-once="true">
-               <article>
-                    <img class ="programmation_img" src="assets/img/photo_cesi_1.png"> 
-                    <div id="rectangle_color1"></div>
-                    <p>Tous les diplômés sont attendus à <strong>13h30</strong> au Zénith de Rouen pour: <br>-L'habillage en toge<br>-Les répétitions<br>-La prise de photo de la promo</p>
-               </article>
+	<div class="programmation_imgs">
+		<div  data-aos="zoom-in" data-aos-once="true">
+			<article>
+				<img class ="programmation_img" src="assets/img/photo_cesi_1.png"> 
+				<div id="rectangle_color1"></div>
+				<p>Tous les diplômés sont attendus à <strong>13h30</strong> au Zénith de Rouen pour: <br>-L'habillage en toge<br>-Les répétitions<br>-La prise de photo de la promo</p>
+			</article>
 
-               <article> 
-                    <img class ="programmation_img" src="assets/img/photo_cesi_2.png">    
-                    <div id="rectangle_color2"></div>
-                    <p>Pour des raisons de sécurité, nous ne pourrons pas accueilir du <strong>public</strong>, autre que les <strong>diplômés</strong>, avant l'ouverture des porte à <strong>16h30</strong>. Un service de contrôle sera établi à l'entréé du Zénith, afin de procéder aux vérifications d'usages.</p>
-               </article>
-          </div>
+			<article> 
+				<img class ="programmation_img" src="assets/img/photo_cesi_2.png">    
+				<div id="rectangle_color2"></div>
+				<p>Pour des raisons de sécurité, nous ne pourrons pas accueilir du <strong>public</strong>, autre que les <strong>diplômés</strong>, avant l'ouverture des porte à <strong>16h30</strong>. Un service de contrôle sera établi à l'entréé du Zénith, afin de procéder aux vérifications d'usages.</p>
+			</article>
+		</div>
 
-          <div data-aos="zoom-in" data-aos-once="true">
-               <article>  
-                    <img class ="programmation_img" src="http://localhost:8081/wp-content/themes/site_RDD/img/ceremonie_officielle_img.jpg"> 
-                    <div id="rectangle_color3"></div>
-                    <p>Remise de diplômes de l'ensemble des étudiants du CESI</p>  
-               </article>
+		<div data-aos="zoom-in" data-aos-once="true">
+			<article>  
+				<img class ="programmation_img" src="http://localhost:8081/wp-content/themes/site_RDD/img/ceremonie_officielle_img.jpg"> 
+				<div id="rectangle_color3"></div>
+				<p>Remise de diplômes de l'ensemble des étudiants du CESI</p>  
+			</article>
 
-               <article> 
-                    <img class ="programmation_img" src="http://localhost:8081/wp-content/themes/site_RDD/img/cocktail_img.jpg">  
-                    <div id="rectangle_color4"></div>
-                    <p>Après la cérémonie de remise de diplômes, vous êtes invités avec vos familles à un <strong>cocktail</strong> dans le hall du Zénith. <br> C'est l'occasion de venir partager un moment avec les salariés du CESI.</p>
-               </article>
-          </div>
-     </div>
+			<article> 
+				<img class ="programmation_img" src="http://localhost:8081/wp-content/themes/site_RDD/img/cocktail_img.jpg">  
+				<div id="rectangle_color4"></div>
+				<p>Après la cérémonie de remise de diplômes, vous êtes invités avec vos familles à un <strong>cocktail</strong> dans le hall du Zénith. <br> C'est l'occasion de venir partager un moment avec les salariés du CESI.</p>
+			</article>
+		</div>
+	</div>
 
 
-    <section id="contact_div">
-    	<div id="contact_barre">
-    		<span>Nous contacter</span>
-    	</div>
-    	<div id="contact_img">
-    		
-    	</div>
-    	<div id="contact_form">
-    		
-    	</div>
-    	
-    </section>
+	<section id="contact_div">
+
+		<div id="contact_form">
+			<div class="container">
+			<div class="col-md-10">
+					<div class="form-area">  
+						<form role="form">
+							<br style="clear:both">
+							<h3 style="margin-bottom: 25px; text-align: center;">Nous Contacter</h3>
+							<div class="form-group">
+								<input type="text" class="form-control" id="name" name="name" placeholder="Nom" required>
+							</div>
+							<div class="form-group">
+								<input type="text" class="form-control" id="email" name="email" placeholder="Email" required>
+							</div>
+							<div class="form-group">
+								<input type="text" class="form-control" id="mobile" name="mobile" placeholder="Numéro d téléphone" required>
+							</div>
+							<div class="form-group">
+								<input type="text" class="form-control" id="subject" name="subject" placeholder="Sujet" required>
+							</div>
+							<div class="form-group">
+								<textarea class="form-control" type="textarea" id="message" placeholder="Message" maxlength="140" rows="6"></textarea>
+								<span class="help-block"><p id="characterLeft" class="help-block "></p></span>                    
+							</div>
+
+							<button type="button" id="submit" name="submit" class="btn btn-primary pull-right">Envoyer</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</section>
 
 
 	<footer>
