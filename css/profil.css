@@ -1,0 +1,152 @@
+@import url(http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+@import url(https://meyerweb.com/eric/tools/css/reset/reset.css);
+
+body {
+	font-family: Montserrat, serif;	
+}
+
+#profile {
+	width: 95%;
+	margin: auto;
+}
+
+/***** profile_info *****/
+
+#profile_info {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 40px;
+}
+
+#profile_info_content {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#profile_info_content p img {
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+}
+
+#profile_info_content_duration {
+	border: 1px solid black;
+	padding: 5px;
+}
+
+#profile_info_resume {
+	flex: 1;
+	margin-top: 20px;
+}
+
+
+.profile_info_resume_title {
+	margin-top: 20px;
+}
+
+#profile_info_resume_header {
+	margin: 0 0 20px 0;
+}
+
+#profile_info_skills {
+	flex: 2;
+	margin-top: 20px;
+}
+
+#profile_info_skills_header {
+	margin-bottom: 20px;
+}
+
+.profile_info_skills_name {
+	margin-top: 20px;
+}
+
+.profile_info_skills_details {
+	margin-left: 20px;
+	margin-top: 10px; 
+}
+
+#profile_info_content p img, #profile_info_content_name, #profile_info_content_location, #profile_info_content_duration, .profile_info_resume_content {
+	margin: 5px 0;
+}
+
+/***** profile_annex *****/
+
+#profile_annex {
+	display: flex;
+	justify-content: space-between;
+}
+
+#profile_calendar {
+	flex: 3;
+}
+
+#profile_feedback {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	margin: 10px 30px;
+}
+
+
+#profile_feedback > h2 {
+	text-align: center;
+}
+
+#profile_feedback .rating {
+	align-self: center;
+}
+
+#profile_annex_feedback_line {
+	width: 100px;
+	height: 4px;
+	background-color: #DA0;
+	border-radius: 50%;
+	margin: 40px auto;
+}
+
+.profile_annex_feedback_name {
+	margin-top: 20px;
+}
+
+.profile_annex_feedback_comment {
+	margin-top: 10px;
+	margin-left: 20px;
+}
+#profile_annex_feedback_button {
+	text-align: center;
+	margin: 40px auto;
+	padding: 10px;
+	border: 1px solid black;
+}
+/****** Style Star Rating Widget *****/
+
+.rating { 
+  border: none;
+  position: relative;
+}
+
+.rating > input { display: none; } 
+.rating > label:before { 
+  margin: 5px;
+  font-size: 1.25em;
+  font-family: FontAwesome;
+  display: inline-block;
+  content: "\f005";
+}
+
+.rating > .half:before { 
+  content: "\f089";
+  position: absolute;
+}
+
+.rating > label { 
+color:  #ddd;
+ float: right; 
+}
+
+.rating > #star4half ~ label {
+	color: #FFD700;
+}
