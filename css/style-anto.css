@@ -27,10 +27,10 @@ h2{
 
 #logo{
 
-	width: 70px;
-	height: 70px;
-	background-image: url("../assets/img/logo-bw.jpg");
-	background-size: 70px 70px;
+	width: 100px;
+	height: 100px;
+	background-image: url("../assets/img/logo-cocorico_1024.png");
+	background-size: 100px 100px;
 	margin: 0 80px 0 20px;
 }
 
@@ -158,3 +158,67 @@ h2 > a:hover{
     .dropdownOptSelected{
         background-color: gray;
     }
+
+
+
+
+
+
+
+
+
+
+#custom-feedback{
+	margin-top: 30px;
+	width: 250px;
+	height: 380px;
+	overflow-y: scroll;
+	padding: 15px;
+
+	font-family: Helvetica;
+}
+
+#custom-I{
+	width: 100%;
+	padding: 5px;
+	background-color: green;
+	height: 160px;
+	
+}
+
+#custom-I > h3{
+		text-align: center;
+}
+#custom-I > p{
+		text-align: justify-all;
+}
+
+#custom-II{
+	margin-top: 25px;
+	width: 100%;
+	padding: 5px;
+	background-color: blue;
+	height: 160px;
+}
+
+#custom-II > h3{
+		text-align: center;
+}
+#custom-II > p{
+		text-align: justify-all;
+}
+
+#custom-III{
+	margin-top: 25px;
+	width: 100%;
+	padding: 5px;
+	background-color: blue;
+	height: 160px;
+}
+
+#custom-III > h3{
+		text-align: center;
+}
+#custom-III > p{
+		text-align: justify-all;
+}
