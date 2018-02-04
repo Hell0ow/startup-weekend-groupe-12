@@ -5,7 +5,7 @@
         // création d'une liste
         function createList(f){
             // créer la première zone, affichant l'option sélectionnée
-            var cell = $('<div class="dropdownCell">' + '<img src="/img/fr.png"/>Français' + '</div>');
+            var cell = $('<div class="dropdownCell">' + '<img src="assets/img/fr.png"/>Français' + '</div>');
 
             // créer la seconde zone, affichant toutes les options
             var dropdown = $('<div class="dropdownPanel"></div>');
