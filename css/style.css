@@ -132,11 +132,23 @@ header
 
 #content_description
 {
+	margin-top: 80px;
 	color: rgb(130,131,172);
+	text-align: center;
+	width: 60%;
+	margin-left: 20%;
+	line-height: 45px;
+	font-size: 1.5em;
+}
+
+#content_description p 
+{
+
 }
 
 
 footer
 {
-
+	background-color: rgb(46,48,54);
+	
 }
