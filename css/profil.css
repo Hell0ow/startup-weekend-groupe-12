@@ -69,6 +69,7 @@ body {
 .profile_info_skills_details {
 	margin-left: 20px;
 	margin-top: 10px; 
+	line-height: 25px;
 }
 
 #profile_info_content p img, #profile_info_content_name, #profile_info_content_location, #profile_info_content_duration, .profile_info_resume_content {
@@ -158,11 +159,20 @@ color:  #ddd;
 
 
 
+.bold
+{
+	font-weight: bold;
+}
 
 
 
-
-
+#background_image_profil
+{
+	position: absolute;
+	width: 98%;
+	top: -8px;
+	left: 11px;
+}
 
 
 
