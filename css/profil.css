@@ -126,6 +126,12 @@ body {
 	padding: 10px;
 	border: 1px solid black;
 }
+
+#profile_annex_feedback_total {
+	font-family: helvetica, serif;
+		font-size: 16px;
+}
+
 /****** Style Star Rating Widget *****/
 
 .rating { 
