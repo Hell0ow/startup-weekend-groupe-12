@@ -5,52 +5,127 @@ body {
 	font-family: Montserrat, serif;	
 }
 
-#profil_content {
+#profile {
 	width: 95%;
 	margin: auto;
 }
 
-#profil_name {
+/***** profile_info *****/
+
+#profile_info {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 40px;
+}
+
+#profile_info_content {
+	flex: 1;
 	display: flex;
 	flex-direction: column;
+	align-items: center;
 }
 
-#profil_name p img {
+#profile_info_content p img {
 	border-radius: 50%;
+	width: 200px;
+	height: 200px;
 }
 
-#profil_resume {
-	position: relative;
+#profile_info_content_duration {
+	border: 1px solid black;
+	padding: 5px;
 }
 
-#profil_annex {
+#profile_info_resume {
+	flex: 1;
+	margin-top: 20px;
+}
+
+
+.profile_info_resume_title {
+	margin-top: 20px;
+}
+
+#profile_info_resume_header {
+	margin: 0 0 20px 0;
+}
+
+#profile_info_skills {
+	flex: 2;
+	margin-top: 20px;
+}
+
+#profile_info_skills_header {
+	margin-bottom: 20px;
+}
+
+.profile_info_skills_name {
+	margin-top: 20px;
+}
+
+.profile_info_skills_details {
+	margin-left: 20px;
+	margin-top: 10px; 
+}
+
+#profile_info_content p img, #profile_info_content_name, #profile_info_content_location, #profile_info_content_duration, .profile_info_resume_content {
+	margin: 5px 0;
+}
+
+/***** profile_annex *****/
+
+#profile_annex {
 	display: flex;
 	justify-content: space-between;
 }
 
-#profil_calendar {
+#profile_calendar {
 	flex: 3;
 }
 
-#profil_feedback {
+#profile_feedback {
 	flex: 1;
 	display: flex;
 	flex-direction: column;
+	margin: 10px 30px;
 }
 
 
-#profil_feedback > h2 {
+#profile_feedback > h2 {
 	text-align: center;
 }
 
-#profil_feedback .rating {
+#profile_feedback .rating {
 	align-self: center;
 }
 
+#profile_annex_feedback_line {
+	width: 100px;
+	height: 4px;
+	background-color: #DA0;
+	border-radius: 50%;
+	margin: 40px auto;
+}
+
+.profile_annex_feedback_name {
+	margin-top: 20px;
+}
+
+.profile_annex_feedback_comment {
+	margin-top: 10px;
+	margin-left: 20px;
+}
+#profile_annex_feedback_button {
+	text-align: center;
+	margin: 40px auto;
+	padding: 10px;
+	border: 1px solid black;
+}
 /****** Style Star Rating Widget *****/
 
 .rating { 
   border: none;
+  position: relative;
 }
 
 .rating > input { display: none; } 
@@ -74,32 +149,4 @@ color:  #ddd;
 
 .rating > #star4half ~ label {
 	color: #FFD700;
-}
-
-/****** Scroll ******/
-
-.scroll-down {
-  position: absolute;
-  left: 50%;
-  margin-left: -15px;
-  display: block;
-  width: 30px;
-  height: 30px;
-  border: 2px solid #000;
-  background-size: 14px auto;
-  border-radius: 50%;
-  z-index: 2;
-}
-
-.scroll-down:before {
-    position: absolute;
-    top: calc(50% - 8px);
-    left: calc(50% - 6px);
-    transform: rotate(-45deg);
-    display: block;
-    width: 10px;
-    height: 10px;
-    content: "";
-    border: 2px solid black;
-    border-width: 0px 0 2px 2px;
 }
