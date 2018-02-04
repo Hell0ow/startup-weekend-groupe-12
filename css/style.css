@@ -156,12 +156,13 @@ header
 }
 
 
-footer
+footer#footer_site
 {
 	background-color: rgb(46,48,54);
-	height: 100px;
+	height: 120px;
 	color: white;
 	display: flex;
+	flex-wrap: wrap;
 	flex-direction: row !important;
 }
 
@@ -170,23 +171,25 @@ footer
 	display: flex;
 	justify-content: center;
 	align-items: flex-end;
+	padding-bottom: 20px;
+	width: 100%;
 }
 
 #footer_title
 {
-	width: 40%;
+	width: 50%;
 	margin-left: 100px;
 	padding-top: 5px;
 }
 
 #footer_logos
 {
-	width: 30%;
+	width: 40%;
 	display: flex;
 	justify-content: flex-end;
+	margin-top: 20px;
 	padding-right:15px;
 	align-items: flex-start;
-	background-color: blue;
 }
 
 #footer_logos img
