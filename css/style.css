@@ -16,10 +16,10 @@ header
 
 #wallpaper_background
 {
-	background-image: url("../assets/img/Sans titre-1.jpg");
+	background-image: url("../assets/img/Sans titre-1.png");
 	margin-top: 5%;
 	background-size: 100%;
-	width: 95%;
+	width: 100%;
 	height: 800px;
 
 }
@@ -42,7 +42,6 @@ header
 	font-weight: bold;
 	text-shadow: 1px 1px 1px black;
 	text-decoration: none;
-	text-decoration: underline;
 	color:white;
 }
 
@@ -307,9 +306,9 @@ footer
 
 #rectangle_color1
 {
-	background-color:#ff0000;
+	background-color:black;
 	width: 200px;
-	height: 2px;
+	height: 3px;
 	position: relative;
 	top: -50px;
 	z-index: 11;
@@ -318,9 +317,9 @@ footer
 
 #rectangle_color2
 {
-	background-color:#34d293;
+	background-color:black;
 	width: 200px;
-	height: 2px;
+	height: 3px;
 	position: relative;
 	top: -50px;
 	margin-bottom: -40px;
@@ -328,9 +327,9 @@ footer
 
 #rectangle_color3
 {
-	background-color:#3ab0e2;
+	background-color: black;
 	width: 200px;
-	height: 2px;
+	height: 3px;
 	position: relative;
 	top: -50px;
 	margin-bottom: -40px;
@@ -338,9 +337,9 @@ footer
 
 #rectangle_color4
 {
-	background-color:#f7d861;
+	background-color:black;
 	width: 200px;
-	height: 2px;
+	height: 3px;
 	opacity: 1;
 	position: relative;
 	top: -50px;
