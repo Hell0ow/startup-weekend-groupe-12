@@ -231,7 +231,7 @@ footer
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
-	margin-top: 2%;
+	margin-top: 10%;
 	text-align:center;
 }
 
@@ -345,4 +345,12 @@ footer
 	position: relative;
 	top: -50px;
 	margin-bottom: -40px;
+}
+
+
+#title_content_programmation
+{
+	text-align: center;
+	color: rgb(130,131,172);
+	font-size: 3em;
 }
