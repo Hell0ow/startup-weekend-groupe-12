@@ -36,7 +36,7 @@ body {
 #profile_info_content_duration {
 	border: 1px solid black;
 	padding: 5px;
-	font-size: 15px;
+	font-size: 15px !important;
 }
 
 #profile_info_resume {
@@ -129,7 +129,7 @@ body {
 
 #profile_annex_feedback_total {
 	font-family: helvetica, serif;
-		font-size: 16px;
+		font-size: 15px ! important;
 }
 
 /****** Style Star Rating Widget *****/
