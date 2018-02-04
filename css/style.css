@@ -20,7 +20,7 @@ header
 	margin-top: 5%;
 	background-size: 100%;
 	width: 100%;
-	height: 800px;
+	height: 650px;
 
 }
 
@@ -354,33 +354,23 @@ footer
 	text-align: center;
 	color: rgb(130,131,172);
 	font-size: 3em;
+<<<<<<< Updated upstream
 }
 
 #contact_div
 {
-	height: 720px;
-	margin-top: -150px;
-	margin-bottom: -65px;
-
-	background: url('../assets/img/test.png');
-
-	background-repeat: no-repeat;
-
-	display: flex;
-	align-items: center;
+	height: 600px;
+	width: 100%;
 }
 
-
-#contact_form
+#contact_barre
 {
-	width: 480px;
-	margin-top: -10%;
-	height: 80%;
-	background-color: white;
-	margin-left: 10%;
+	width: 1920px;
 }
 
-#contact_form
+#contact_img
 {
-
+	background-image: url('../assets/img/Sans titre-1.jpg');
+=======
+>>>>>>> Stashed changes
 }
