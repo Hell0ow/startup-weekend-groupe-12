@@ -354,3 +354,19 @@ footer
 	color: rgb(130,131,172);
 	font-size: 3em;
 }
+
+#contact_div
+{
+	height: 600px;
+	width: 100%;
+}
+
+#contact_barre
+{
+	width: 1920px;
+}
+
+#contact_img
+{
+	background-image: url('../assets/img/Sans titre-1.jpg');
+}
