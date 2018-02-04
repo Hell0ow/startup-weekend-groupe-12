@@ -353,6 +353,7 @@ footer
 	text-align: center;
 	color: rgb(130,131,172);
 	font-size: 3em;
+<<<<<<< Updated upstream
 }
 
 #contact_div
@@ -369,4 +370,6 @@ footer
 #contact_img
 {
 	background-image: url('../assets/img/Sans titre-1.jpg');
+=======
+>>>>>>> Stashed changes
 }
