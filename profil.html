@@ -2,17 +2,41 @@
 <html lang="fr">
 <head>
 	<meta charset="UTF-8">
-	<link rel="stylesheet" href="../css/style.css" />
-	<link rel="stylesheet" href="../css/profil.css" />
+	<link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="css/profil.css" />
 	<title>SeeDgital</title>
-	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700" rel="stylesheet">
+	<link rel="stylesheet" href="css/style-anto.css" />
+	<link rel="icon" type="image/png" href="assets/img/logo_1024.png" />
 </head>
 <body>
+	<div id="main-header">
+		<section id ="header-part-I">
+			<div id ="logo"></div>
+			<h2>Cocoriko</h2>
+		</section>
+		<section id ="header-part-II">
+		</section>
+		<section id ="header-part-III">
+			<div id ="img-profil"></div>
+			<div id ="profil"><a href="startupweekend/profil.html">Thomas Heriche</a></div>
+		</section>
+		<section id ="header-part-IV">
+			<div class = "lang-container">
+				<ul>
+					<li value="1"><img src="assets/img/fr.png"/>Français</li>
+					<li value="2"><img src="assets/img/an.png"/>English</li>
+					<li value="3"><img src="assets/img/es.png"/>Español</li>
+					<li value="4"><img src="assets/img/de.png"/>Deutsch</li>
+				</ul>
+			</div>
+		</section>
+	</div>
 	<section id="profile">
 		<article id="profile_info">
 			<div id="profile_info_content">
 				<p>
-					<img src="../assets/img/thomas-heriche.jpg" alt="thomas" />
+					<img src="assets/img/thomas-heriche.jpg" alt="thomas" />
 				</p>
 				<h1 id="profile_info_content_name">Thomas Heriche</h1>
 				<h1 id="profile_info_content_location">Rouen</h1>
@@ -63,12 +87,15 @@
 				<p id="profile_annex_feedback_button">Voir plus de feedback</p>
 			</div>
 			<div id="profile_calendar">
-				<img src="../assets/img/calendar.png" alt="calendar" />
+				<img src="assets/img/calendar.png" alt="calendar" />
 			</div>
 
 		</article>
 		<aside>
 		</aside>
 	</section>
+
+	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="js/lang-list.js"></script>
 </body>
 </html>

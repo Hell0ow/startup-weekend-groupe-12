@@ -6,8 +6,10 @@ body {
 }
 
 #profile {
+
 	width: 95%;
 	margin: auto;
+	margin-top: 90px;
 }
 
 /***** profile_info *****/
@@ -150,3 +152,26 @@ color:  #ddd;
 .rating > #star4half ~ label {
 	color: #FFD700;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
